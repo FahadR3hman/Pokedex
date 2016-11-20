@@ -22,7 +22,7 @@ class PokeCell: UICollectionViewCell {
         layer.cornerRadius = 6.0
     }
     
-    func configurecell (pokemon: Pokemon) {
+    func configurecell (_ pokemon: Pokemon) {
         
         self.pokemon = pokemon
         
